@@ -45,6 +45,19 @@
         android:textColor="#000000"
         android:id="@+id/col"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:background="#15FB09"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/pha"
+        />
+
 
 
 </LinearLayout>

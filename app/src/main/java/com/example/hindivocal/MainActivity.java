@@ -39,7 +39,14 @@ public class MainActivity extends AppCompatActivity {
                startActivity(colorIntent);
            }
        });
-
+        TextView pha=findViewById(R.id.pha);
+        pha.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent phrasesIntent=new Intent(MainActivity.this,phrases_activity.class);
+                startActivity(phrasesIntent);
+            }
+        });
     }
 //    public  void open_numbers(View view)
 //    {
