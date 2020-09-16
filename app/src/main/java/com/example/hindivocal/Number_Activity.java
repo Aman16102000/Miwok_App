@@ -30,7 +30,7 @@ LinearLayout rootView=findViewById(R.id.number);
         words.add(new Word("Seven","kenekaku"));
         words.add(new Word("Eight","kawinta"));
         words.add(new Word("Nine","wo'e"));
-        words.add(new Word("Ten","na;aacha"));
+        words.add(new Word("Ten","na'aacha"));
 
         WordAdapter adapter=new WordAdapter(this,words);
         ListView listView =findViewById(R.id.list);
