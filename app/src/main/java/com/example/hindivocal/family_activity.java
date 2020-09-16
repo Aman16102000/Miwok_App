@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 public class family_activity extends AppCompatActivity{
 
-    public class Number_Activity extends AppCompatActivity {
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -19,4 +18,4 @@ public class family_activity extends AppCompatActivity{
 
         }
     }
-}
+

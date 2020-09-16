@@ -12,6 +12,7 @@
         >
         <activity android:name=".Number_Activity" android:label="Numbers"></activity>
         <activity android:name=".family_activity" android:label="Family Members"/>
+        <activity android:name=".color_activity" android:label="Colors"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

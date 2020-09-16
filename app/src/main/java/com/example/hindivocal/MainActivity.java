@@ -31,7 +31,14 @@ public class MainActivity extends AppCompatActivity {
            }
            });
 
-
+       TextView col=findViewById(R.id.col);
+       col.setOnClickListener(new View.OnClickListener(){
+           @Override
+           public void onClick(View view) {
+               Intent colorIntent=new Intent(MainActivity.this,color_activity.class);
+               startActivity(colorIntent);
+           }
+       });
 
     }
 //    public  void open_numbers(View view)
