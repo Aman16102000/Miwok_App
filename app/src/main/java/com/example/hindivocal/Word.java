@@ -9,6 +9,8 @@ public class Word {
      */
     private String mMiwokTranslation;
 
+    private  int mAudio_R_id;
+
     // returning the resourse id of the images
     private static final int No_Image_id=-1;
     private int Resource_drawable_id=No_Image_id;
@@ -20,9 +22,11 @@ public class Word {
      *                           (such as English)
      * @param miwokTranslation   is the word in the Miwok language
      */
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String miwokTranslation,int Audio_Resource_id) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+        mAudio_R_id=Audio_Resource_id;
+
     }
 
     /**
@@ -43,12 +47,18 @@ public class Word {
         return Resource_drawable_id;
     }
 
+    public  int getmAudio_R_id()
+    {
+        return mAudio_R_id;
+    }
+
     // second Contructor
-    public Word(String defaultTranslation,String miwokTranslation,int Image_Resourse_id)
+    public Word(String defaultTranslation,String miwokTranslation,int Image_Resourse_id,int Audio_Resource_id)
     {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         Resource_drawable_id=Image_Resourse_id;
+        mAudio_R_id=Audio_Resource_id;
     }
     public boolean hasImage()
     {
